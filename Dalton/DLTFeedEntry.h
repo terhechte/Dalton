@@ -27,4 +27,6 @@
 @property (nonatomic, copy, readonly) NSDate *updated;
 @property (nonatomic, copy, readonly) NSString *identifier;
 @property (nonatomic, copy, readonly) NSURL *link;
+@property (nonatomic, copy, readonly) NSString *content;
+- (NSString*) htmlContent;
 @end

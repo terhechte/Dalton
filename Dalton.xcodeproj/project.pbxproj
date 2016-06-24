@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D2822F61D1D54D100E4C2B9 /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2822F01D1D54D100E4C2B9 /* GTMNSString+HTML.h */; };
+		4D2822F71D1D54D100E4C2B9 /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2822F01D1D54D100E4C2B9 /* GTMNSString+HTML.h */; };
+		4D2822F81D1D54D100E4C2B9 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2822F11D1D54D100E4C2B9 /* GTMNSString+HTML.m */; };
+		4D2822F91D1D54D100E4C2B9 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2822F11D1D54D100E4C2B9 /* GTMNSString+HTML.m */; };
+		4D2822FA1D1D54D100E4C2B9 /* NSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2822F21D1D54D100E4C2B9 /* NSString+HTML.h */; };
+		4D2822FB1D1D54D100E4C2B9 /* NSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2822F21D1D54D100E4C2B9 /* NSString+HTML.h */; };
+		4D2822FC1D1D54D100E4C2B9 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2822F31D1D54D100E4C2B9 /* NSString+HTML.m */; };
+		4D2822FD1D1D54D100E4C2B9 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2822F31D1D54D100E4C2B9 /* NSString+HTML.m */; };
+		4D2822FE1D1D54D100E4C2B9 /* NSString+XMLEntities.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2822F41D1D54D100E4C2B9 /* NSString+XMLEntities.h */; };
+		4D2822FF1D1D54D100E4C2B9 /* NSString+XMLEntities.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2822F41D1D54D100E4C2B9 /* NSString+XMLEntities.h */; };
+		4D2823001D1D54D100E4C2B9 /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2822F51D1D54D100E4C2B9 /* NSString+XMLEntities.m */; };
+		4D2823011D1D54D100E4C2B9 /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2822F51D1D54D100E4C2B9 /* NSString+XMLEntities.m */; };
 		BF3825EE1AD1BFB60025A63B /* DLTAtomFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE81C9D1ACC325600068983 /* DLTAtomFeed.m */; };
 		BF3825EF1AD1BFB60025A63B /* DLTRSSFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE81C9F1ACC325600068983 /* DLTRSSFeed.m */; };
 		BF3825F01AD1BFB60025A63B /* DLTFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE81CA11ACC325600068983 /* DLTFeed.m */; };
@@ -45,6 +57,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D2822F01D1D54D100E4C2B9 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		4D2822F11D1D54D100E4C2B9 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		4D2822F21D1D54D100E4C2B9 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
+		4D2822F31D1D54D100E4C2B9 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+		4D2822F41D1D54D100E4C2B9 /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XMLEntities.h"; sourceTree = "<group>"; };
+		4D2822F51D1D54D100E4C2B9 /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMLEntities.m"; sourceTree = "<group>"; };
 		BFE81C9B1ACC325600068983 /* Dalton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dalton.h; sourceTree = "<group>"; };
 		BFE81C9C1ACC325600068983 /* DLTAtomFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTAtomFeed.h; sourceTree = "<group>"; };
 		BFE81C9D1ACC325600068983 /* DLTAtomFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTAtomFeed.m; sourceTree = "<group>"; };
@@ -98,6 +116,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D2822EF1D1D54C000E4C2B9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4D2822F01D1D54D100E4C2B9 /* GTMNSString+HTML.h */,
+				4D2822F11D1D54D100E4C2B9 /* GTMNSString+HTML.m */,
+				4D2822F21D1D54D100E4C2B9 /* NSString+HTML.h */,
+				4D2822F31D1D54D100E4C2B9 /* NSString+HTML.m */,
+				4D2822F41D1D54D100E4C2B9 /* NSString+XMLEntities.h */,
+				4D2822F51D1D54D100E4C2B9 /* NSString+XMLEntities.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		BFE81C781ACC31FB00068983 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +153,7 @@
 		BFE81C831ACC31FB00068983 /* Dalton */ = {
 			isa = PBXGroup;
 			children = (
+				4D2822EF1D1D54C000E4C2B9 /* Categories */,
 				BFE81C9B1ACC325600068983 /* Dalton.h */,
 				BFE81C9C1ACC325600068983 /* DLTAtomFeed.h */,
 				BFE81C9D1ACC325600068983 /* DLTAtomFeed.m */,
@@ -158,9 +190,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2822F61D1D54D100E4C2B9 /* GTMNSString+HTML.h in Headers */,
 				BF6E73271AD43C2600C4B180 /* DLTFeedEntry.h in Headers */,
+				4D2822FA1D1D54D100E4C2B9 /* NSString+HTML.h in Headers */,
 				BF6E73221AD43C1600C4B180 /* Dalton.h in Headers */,
 				BF6E73251AD43C2000C4B180 /* DLTFeed.h in Headers */,
+				4D2822FE1D1D54D100E4C2B9 /* NSString+XMLEntities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,9 +203,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2822F71D1D54D100E4C2B9 /* GTMNSString+HTML.h in Headers */,
 				BF3825F11AD1BFC30025A63B /* Dalton.h in Headers */,
+				4D2822FB1D1D54D100E4C2B9 /* NSString+HTML.h in Headers */,
 				BF3825F21AD1BFC30025A63B /* DLTFeed.h in Headers */,
 				BF3825F31AD1BFC30025A63B /* DLTFeedEntry.h in Headers */,
+				4D2822FF1D1D54D100E4C2B9 /* NSString+XMLEntities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +366,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2823001D1D54D100E4C2B9 /* NSString+XMLEntities.m in Sources */,
 				BF6E73261AD43C2300C4B180 /* DLTFeed.m in Sources */,
+				4D2822F81D1D54D100E4C2B9 /* GTMNSString+HTML.m in Sources */,
+				4D2822FC1D1D54D100E4C2B9 /* NSString+HTML.m in Sources */,
 				BF6E73231AD43C1C00C4B180 /* DLTAtomFeed.m in Sources */,
 				BF6E73241AD43C1E00C4B180 /* DLTRSSFeed.m in Sources */,
 			);
@@ -346,7 +387,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2823011D1D54D100E4C2B9 /* NSString+XMLEntities.m in Sources */,
 				BF3825EE1AD1BFB60025A63B /* DLTAtomFeed.m in Sources */,
+				4D2822F91D1D54D100E4C2B9 /* GTMNSString+HTML.m in Sources */,
+				4D2822FD1D1D54D100E4C2B9 /* NSString+HTML.m in Sources */,
 				BF3825EF1AD1BFB60025A63B /* DLTRSSFeed.m in Sources */,
 				BF3825F01AD1BFB60025A63B /* DLTFeed.m in Sources */,
 			);

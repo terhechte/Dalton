@@ -22,6 +22,7 @@
 
 #import "DLTAtomFeed.h"
 #import "DLTFeedEntry.h"
+#import "NSString+HTML.h"
 
 @interface DLTAtomFeedEntry : NSObject <DLTFeedEntry>
 @property (nonatomic, copy) NSString *title;
@@ -29,6 +30,7 @@
 @property (nonatomic, copy) NSDate *updated;
 @property (nonatomic, copy) NSString *identifier;
 @property (nonatomic, copy) NSDictionary *links;
+@property (nonatomic, copy) NSString *content;
 @end
 
 @implementation DLTAtomFeedEntry
@@ -37,6 +39,7 @@
 @synthesize updated = _updated;
 @synthesize identifier = _identifier;
 @synthesize links = _links;
+@synthesize content = _content;
 
 - (instancetype)initWithElement:(ONOXMLElement *)element {
     self = [super init];
@@ -44,6 +47,7 @@
         _title = [[element firstChildWithTag:@"title"] stringValue];
         _updated = [[element firstChildWithTag:@"updated"] dateValue];
         _identifier = [[element firstChildWithTag:@"id"] stringValue];
+        _identifier = [[element firstChildWithTag:@"content"] stringValue];
 
         NSMutableDictionary *links = [NSMutableDictionary dictionary];
         for (ONOXMLElement *linkElement in [element childrenWithTag:@"link"]) {
@@ -60,6 +64,10 @@
         _links = [links copy];
     }
     return self;
+}
+
+- (NSString*) htmlContent {
+    return [_content stringByDecodingHTMLEntities];
 }
 
 - (NSString *)description {

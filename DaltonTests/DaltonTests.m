@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "NSString+HTML.h"
 
 @interface DaltonTests : XCTestCase
 
@@ -25,6 +26,8 @@
 }
 
 - (void)testExample {
+    NSString *a = @"&lt;!-- Note, this is a legacy include --&gt;";
+    NSLog(@"%@", [a stringByDecodingHTMLEntities]);
     // This is an example of a functional test case.
     XCTAssert(YES, @"Pass");
 }
