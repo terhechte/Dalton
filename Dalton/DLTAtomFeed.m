@@ -47,7 +47,7 @@
         _title = [[element firstChildWithTag:@"title"] stringValue];
         _updated = [[element firstChildWithTag:@"updated"] dateValue];
         _identifier = [[element firstChildWithTag:@"id"] stringValue];
-        _identifier = [[element firstChildWithTag:@"content"] stringValue];
+        _content = [[element firstChildWithTag:@"content"] stringValue];
 
         NSMutableDictionary *links = [NSMutableDictionary dictionary];
         for (ONOXMLElement *linkElement in [element childrenWithTag:@"link"]) {
